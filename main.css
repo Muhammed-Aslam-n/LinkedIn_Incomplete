@@ -1,0 +1,261 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+/* .main{
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+} */
+.navMain{
+    padding-top: 8px;
+    justify-content: space-between;
+    display: flex;  
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+}
+#nav1{
+    padding-right: 100px;
+    letter-spacing: 10px;
+}
+#logo1{
+    width:130px;
+    height: auto;
+    box-sizing: border-box;
+}
+#a1,#a2{
+    text-decoration: none;
+    cursor:pointer;
+    color: rgba(41, 41, 41, 0.9);
+}
+#joinnow{
+    background-color: transparent;
+    width:100px ;
+    height: 40px;
+    font-size:1rem;
+    border: 0;
+    display: inline-block;
+    font-family: Segoe UI Semibold;
+}
+#joinnow:hover{
+    background-color: silver;
+    opacity: 0.6;
+    transition:all 0.5s ease-out ;
+    border-radius: 3px;
+}
+#signUp{
+    background-color: transparent;
+    color:#0a66c2;
+    width:100px ;
+    height: 40px;
+    font-size:1rem;
+    border: 0.5px solid #0a66c2;
+    display: inline-block;
+    font-family: Segoe UI Semibold;
+    border-radius: 20px;
+}
+#signUp:hover{
+    border: 2px solid #0a66c2 ;
+    transition: all 0.2s ease;
+    background-color: #c1d2ec;
+}
+.FirstSection{
+    padding-top: 20px;
+    padding-left: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+    background-image: url("LinkedinFirst.svg");
+    background-repeat: no-repeat;
+    background-position:right;
+    /* height: fit-content; */
+}
+#welcome{
+    color:#8f5849;font-size: 3.5rem;
+    font-weight: 200;
+    font-family: Segoe UI Light;
+    width: 60%;
+    line-height: 70px;
+}
+.firstUl{
+    list-style-type: none;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.ExternalRow2{
+    display: flex;
+    flex-direction: row;
+}
+.firstlist{    
+    font-size: 1.4rem ;
+    line-height: 1.4rm;
+    font-family: Segoe UI;
+    flex:1;
+    color: inherit ;
+    display: flex;
+    flex-direction: row;
+}
+.arrow{
+    display: inline-flex;
+    width: 10px;
+    height: 20px;
+    margin-left: -24px;
+}
+.optionBtn{
+    background-color: transparent;
+    outline: none;
+    border: 0.5px solid silver;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+    width: 408px;
+    border-radius: 5px;
+}
+.optionBtn:hover{
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.15),0px 0px 2px rgba(0,0,0,0.15);
+    border-radius: 5px;
+}
+.spaceSection{
+    height: 200px;
+    background: transparent;
+    
+}
+.secondSection{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(245, 239, 248, 0.918);
+    height: 70rem;
+}
+
+.secondSectionCol1{
+    width: 39.5%;
+    margin-left: 80px;
+}
+.secondSectionCol1Row1{
+    height: 600px;
+}
+#secondHeading{
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    line-height: 60px;
+    word-spacing: 15px;
+    font-family: Segoe UI Light;
+}
+.secondSectionCol2{
+    width: 648px;
+    display: flex; 
+    flex-direction: column; 
+}
+.secondSectionHead2{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Segoe UI Semibold;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    line-height: 20px;
+    /* padding-bottom: 12px; */
+}
+.secondSectionLinks{
+    font-size: 1.5rem;
+    font-family: Segoe UI Semibold;
+    line-height: 1.1;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    align-items: center;
+    text-align: left;
+    height: auto;
+    width: auto;
+    float: left;
+    background-color: rgba(0,0,0,0.08);
+    border-radius: 28px;
+    padding: 8px 20px;
+    margin-bottom: 12px;
+    margin: 10px;
+}
+.secondSectionLinks:hover{
+    text-decoration: underline;
+}
+.thirdSection{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(239, 244, 248, 0.918);
+    height: 20rem;
+}
+.thirdFirstHead{
+    width: 413px;
+    margin-left: 80px;
+    font-size: 2.5rem;
+    font-family: Segoe UI;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    color: #B24020;
+    line-height: 50px;
+}
+.thirdFirstBtn{
+    width:140px;
+    height:50px;
+    border-radius: 28px;
+    border: 0.5px solid rgb(31, 30, 30);
+    margin-top: 80px;
+    margin-left:50px;
+    color: gray;
+    font-size: 24px;
+}
+.thirdFirstBtn:hover{
+    background-color: rgb(189, 181, 181);
+    text-decoration: 0.3px black underline;
+    color: rgb(102, 101, 101);
+}
+
+.fourthRow{
+    flex-direction: column;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fourthCol1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0a66c2;
+}
+.pnbtn{
+    width:auto;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    color:rgba(0,0,0,0.75);
+    line-height: 32px;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 15px;
+}
+.pnbtn:hover{
+    background-color: rgb(207, 204, 204);
+    transition: all 0.5s ease-in-out;
+}
+.pbtnimage{
+    width: 15px;
+    height: 15px;
+}
+
+.fifthRow{
+    margin-left: 60px;
+    background-color: #B24020;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.fifthCol1{
+    flex-direction: column;
+    background-color: aqua;
+    height: 200px;
+}
